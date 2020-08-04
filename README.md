@@ -15,6 +15,9 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+## 创建文件夹
+data_files（数据文件）、tmp_files（临时文件）
+
 ## 启动后台
 ```
 python clear.py

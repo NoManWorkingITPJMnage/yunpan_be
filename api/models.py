@@ -9,7 +9,7 @@ class User(models.Model):
     student_id = models.CharField(max_length=128, unique=True)
     school = models.CharField(max_length=256)
     real_name = models.CharField(max_length=128, default='')
-    mail = models.EmailField(unique=True)
+    mail = models.EmailField()
     gender = models.CharField(max_length=32)
     phone = models.CharField(max_length=256)
     user_class = models.CharField(max_length=128, default='')

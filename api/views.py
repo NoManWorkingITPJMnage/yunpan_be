@@ -104,7 +104,7 @@ def register(request):
         user = None
 
     user = User()
-    user.use_name= user_name
+    user.user_name= user_name
     user.password = password
     user.real_name = real_name
     user.student_id = student_id
